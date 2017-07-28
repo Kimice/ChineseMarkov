@@ -1,0 +1,2 @@
+# ChineseMarkov
+chinese sentence generator
