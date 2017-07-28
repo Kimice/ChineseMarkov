@@ -5,6 +5,13 @@ Base on Markov model and [jieba](https://github.com/fxsjy/jieba) chinese text se
 Inspired by [hrs/markov-sentence-generator](https://github.com/hrs/markov-sentence-generator)
 
 
+## Install
+
+```bash
+pip install chineseMarkov
+```
+
+
 ## Usage
 
 ```python
