@@ -14,13 +14,13 @@ REQUIREMENTS = [str(ir.req) for ir in parse_requirements(
 
 setup(
     name='chineseMarkov',
-    version='0.1.0',
+    version='0.1.3',
     description='Chinese Sentence Generator',
     long_description=open('README.md').read(),
     author='Kimice',
     author_email='kimiceqc@gmail.com',
     url='https://github.com/Kimice/ChineseMarkov',
     license='GPLv3',
-    packages=find_packages(exclude=["test"]),
+    packages=find_packages(exclude=['test', ]),
     install_requires=REQUIREMENTS
 )

@@ -8,10 +8,10 @@ Inspired by [hrs/markov-sentence-generator](https://github.com/hrs/markov-senten
 ## Usage
 
 ```python
-import markov
+import chineseMarkov
 
-m = markov.Markov('data/sample.txt', length=2)
-print m.gen_sentence()
+gen = chineseMarkov.MarkovGenerator('data/sample.txt', length=2)
+gen.get_sentence()
 
 ```
 

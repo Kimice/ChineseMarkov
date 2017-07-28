@@ -7,7 +7,7 @@ import collections
 from punctuations import STOPS, NON_STOPS
 
 
-class Markov(object):
+class MarkovGenerator(object):
     def __init__(self, filename='', length=1):
         self._start_word = []
         self._temp_map = collections.defaultdict(collections.Counter)
@@ -57,7 +57,7 @@ class Markov(object):
                 break
         return next_word
 
-    def gen_sentence(self):
+    def get_sentence(self):
         self._prepare_word_list()
         current_word = random.choice(self._start_word)
         sentence = current_word
